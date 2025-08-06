@@ -40,7 +40,7 @@ See [MIT License](https://github.com/nhsengland/QISA-HCAI-dashboard-BAU/blob/mai
 The documentation is © Crown copyright and available under the terms of the Open Government 3.0 licence.
 
 ## Author
-- Kirsty Walker - contact is via england.da-qis-analysis@nhs.net
+- Kirsty Walker
 
 ## Contact
 To get in touch with us and find out more about the Quality Improvement Strategic Analysis Team please email us at england.da-qis-analysis@nhs.net

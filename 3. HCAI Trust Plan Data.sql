@@ -6,7 +6,6 @@ CODE TO OBTAN TRUST PLAN DATA
 
 CREATED BY Kirsty Walker 14/10/22
 
-2025-06-05 Amended by Joanne Slee lines 303 - 373 to add 25_26 PLAN DATA
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
@@ -402,3 +401,4 @@ UNION All
 
 Select *
 from #Plan_25_26
+

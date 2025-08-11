@@ -6,8 +6,6 @@ CODE FOR CREATING THE COMBINED TRUST OUTPUT TABLE FOR COUNT, PLAN AND RATE DATa
 
 CREATED BY Kirsty Walker 14/10/22
 
-2024-09-03 Amended by Geoff Sharpe to limit output to current financial year + previous 3 years (12M rolling rate) or previous 4 years (all other Measure Type) 
-2025-06-05 Amended by Joanne Slee lines 40, 61, 82, 103, 124, 145, 166 to add '2025/26' to Financial_Year
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
@@ -162,5 +160,6 @@ Infection_type
 ,Region_Name
 
 FROM [NHSE_Sandbox_PPMQ_Quality].[dbo].[HCAI_Trust_Rates]
+
 
 WHERE Financial_Year in ('2021/22','2022/23','2023/24','2024/25','2025/26')

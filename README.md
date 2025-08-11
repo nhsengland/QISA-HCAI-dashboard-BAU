@@ -13,7 +13,7 @@ Note the code and the Tableau workbook data refresh is currently all run in the 
 
 ## Requirements
 -  Access to the NCDR SQL Server Management Studio.
--  For code to be fully reproducible and for access to plan and data output tables, access permissions to the Quality Improvement Strategic Analysis NCDR Sandbox (NHSE_Sandbox_PPMQ_Quality) are also required. For further information, please contact us via england.da-qis-analysis@nhs.net
+-  For code to be fully reproducible and for access to plan and data output tables, access permissions to the Quality Improvement Strategic Analysis NCDR Sandbox (NHSE_Sandbox_PPMQ_Quality) are also required.
 
 ## Summary of the code	
 The code is written in SQL and the SQL scripts require to be run in the below sequential order.

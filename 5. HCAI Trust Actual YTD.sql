@@ -6,10 +6,6 @@ CODE FOR ACTUAL YTD CALCULATIONS
 
 CREATED BY Kirsty Walker 18/11/22
 
-2024-08-13 Amended by Geoff Sharpe at line 226 added category 'Hospital-onset, healthcare associated' to 'Hospital-onset' as list instead of equality followng change in reporting definitions
-2024-08-14 Amended by Geoff Sharpe at line 226 to calculate YTD only using  metric 'Hospital-onset, healthcare associated' and not 'Hospital-onset'
-2025-05-01 Amended by Shalika De Silva lines 212 and 228 to include Community-onset, healthcare associated' catergory to MRSA and MSSA
-2025-05-06 Amended by Shalika De Silva line 235 remove 'metric' from the group by statement
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
@@ -345,3 +341,4 @@ Infection_type collate SQL_Latin1_General_CP1_CI_AS as Infection_type
 ,Region_Code collate database_default as Region_Code
 ,Region_Name collate database_default as Region_Name
 from #MM_Actual_YTD
+

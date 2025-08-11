@@ -6,9 +6,6 @@ CODE TO OBTAIN TRUST 12 MONTH ROLLING RATE DATA
 
 CREATED BY Kirsty Walker 14/10/22
 
-2024-08-13 Amended by Geoff Sharpe at lines 620 and 754 to add 'Hospital-onset, healthcare associated' to 'Hospital-onset' for MRSA and MSSA following change to reporting.
-2024-08-14 Amended by Geoff Sharpe around lines 620 and 754 to add report only 'Hospital-onset, healthcare associated' category for MRSA and MSSA
-2025-05-01 Amended by Shalika De Silva lines 614 - 622 and 754 to include Community-onset, healthcare associated catergory to MRSA and MSSA
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
@@ -1288,6 +1285,7 @@ FROM #MSSA_Rate_Numerator a
 LEFT JOIN #MSSA_Rate_Denominator b on a.OrgCode = b.OrgCode and a.Date = b.Date
 left join [NHSE_Reference].[dbo].[tbl_Ref_ODS_Provider_Hierarchies] as c on a.OrgCode COLLATE DATABASE_DEFAULT = c.Organisation_Code COLLATE DATABASE_DEFAULT
 where c.[NHSE_Organisation_Type]='ACUTE TRUST'
+
 
 
 

@@ -40,6 +40,7 @@ See [MIT License](https://github.com/nhsengland/QISA-HCAI-dashboard-BAU/blob/mai
 The documentation is © Crown copyright and available under the terms of the Open Government 3.0 licence.
 
 ## Author
+- Joanne Slee
 - Kirsty Walker
 
 ## Contact
